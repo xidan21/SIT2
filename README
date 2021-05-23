@@ -1,8 +1,8 @@
+
 Introduction
 ============
 
 S.I.T 2 is a software to identify and evaluate the caustive genetic variants underlying a QTL/GWAS defined association region.
-
 
 
 Requirements
@@ -24,6 +24,7 @@ To install "biomaRt" package, start R and enter:
 
 source("http://bioconductor.org/biocLite.R")
 
+
 biocLite("biomaRt")
 
 The R library "RCurl" may also need to be installed in some case.
@@ -41,7 +42,6 @@ port install bedtools
 To install biopython on Linux, please open terminal and type:
 
 sudo apt-get install bedtools / yum install BEDTools
-
 
 
 
