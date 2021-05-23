@@ -1,0 +1,120 @@
+Introduction
+============
+
+S.I.T 2 is a software to identify and evaluate the caustive genetic variants underlying a QTL/GWAS defined association region.
+
+
+
+Requirements
+============
+
+1). Python 2, Python 2.7.x or newer 
+
+2). R version 2.15.1 or higher
+
+3). bedtools
+
+
+Installation
+============
+
+1). The R library "biomaRt" need to be installed before running sit.
+
+To install "biomaRt" package, start R and enter:
+
+source("http://bioconductor.org/biocLite.R")
+
+biocLite("biomaRt")
+
+The R library "RCurl" may also need to be installed in some case.
+
+To install "RCurl" package, start R and enter:
+
+install.packages("RCurl")
+
+2). Bedtools package need to be installed before running sit.
+
+To install biopython on mac, please open terminal and type
+
+port install bedtools  
+
+To install biopython on Linux, please open terminal and type:
+
+sudo apt-get install bedtools / yum install BEDTools
+
+
+
+
+
+
+
+
+
+
+
+
+How to run ?
+============
+
+To run S.I.T 2, go to " %SIT2_HOME/bin/ " folder and double click "sit"
+
+or open the terminal, enter to the directory " %SIT2_HOME/bin/ " and type:
+
+python sit2
+
+-----------------------------------------------------------------------------
+
+The example input data are provided in directory "/$SIT_HOME/example/somatic-hg38_small_exac_common_3.hg38.vcf"
+
+The following results might look like this:
+
+-----------------------------------------------------------------------------
+
+Transcript Id	ensembl_gene_id	ensembl_transcript_id	external_gene_name	description	Chromosome	SNV position	SNV	Gene Regions
+ENST00000664495	ENSG00000162599	ENST00000664495	NFIA	nuclear factor I A [Source:HGNC Symbol;Acc:HGNC:7784]	chr1	61404111	[ G / A ]	UTR3
+ENST00000670151	ENSG00000162599	ENST00000670151	NFIA	nuclear factor I A [Source:HGNC Symbol;Acc:HGNC:7784]	chr1	61404111	[ G / A ]	UTR3
+ENST00000662015	ENSG00000162599	ENST00000662015	NFIA	nuclear factor I A [Source:HGNC Symbol;Acc:HGNC:7784]	chr1	61404111	[ G / A ]	UTR3
+ENST00000655770	ENSG00000162599	ENST00000655770	NFIA	nuclear factor I A [Source:HGNC Symbol;Acc:HGNC:7784]	chr1	61277488	[ G / A ]	UTR5
+ENST00000482020	ENSG00000162599	ENST00000482020	NFIA	nuclear factor I A [Source:HGNC Symbol;Acc:HGNC:7784]	chr1	61404111	[ cGg / cAg 437 , P / Q 146 ] 0.36	 This is a non-synomynous mutation!!!
+ENST00000498273	ENSG00000240563	ENST00000498273	L1TD1	LINE1 type transposase domain containing 1 [Source:HGNC Symbol;Acc:HGNC:25595]	chr1	62211378	[ C / T ]	UTR3
+ENST00000534713	ENSG00000116729	ENST00000534713	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ (cCc) gGg / (cTc) gAg 140 , A / E 47 ] 0.55	 This is a non-synomynous mutation!!!
+ENST00000533537	ENSG00000116729	ENST00000533537	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ (cgC) gcG / (cgT) gcA 33 , A / A 11 ]	 This is a synomynous mutation
+ENST00000530486	ENSG00000116729	ENST00000530486	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ (cgC) gcG / (cgT) gcA 297 , A / A 99 ]	 This is a synomynous mutation
+ENST00000370973	ENSG00000116729	ENST00000370973	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ (cgC) gcG / (cgT) gcA 33 , A / A 11 ]	 This is a synomynous mutation
+ENST00000471243	ENSG00000116729	ENST00000471243	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ (cgC) gcG / (cgT) gcA 297 , A / A 99 ]	 This is a synomynous mutation
+ENST00000491076	ENSG00000116729	ENST00000491076	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ C / T ]	UTR3
+ENST00000527864	ENSG00000116729	ENST00000527864	WLS	Wnt ligand secretion mediator [Source:HGNC Symbol;Acc:HGNC:30238]	chr1	68159195	[ C / T ]	UTR3
+ENST00000494710	ENSG00000116675	ENST00000494710	DNAJC6	DnaJ heat shock protein family (Hsp40) member C6 [Source:HGNC Symbol;Acc:HGNC:15469]	chr1	65392462	[ gaG / gaA 1422 , E / E 474 ]	 This is a synomynous mutation
+ENST00000475108	ENSG00000213625	ENST00000475108	LEPROT	leptin receptor overlapping transcript [Source:HGNC Symbol;Acc:HGNC:29477]	chr1	65420715	[ T / C ]	UTR5
+ENST00000371065	ENSG00000213625	ENST00000371065	LEPROT	leptin receptor overlapping transcript [Source:HGNC Symbol;Acc:HGNC:29477]	chr1	65420715	[ T / C ]	UTR5
+ENST00000488747	ENSG00000213625	ENST00000488747	LEPROT	leptin receptor overlapping transcript [Source:HGNC Symbol;Acc:HGNC:29477]	chr1	65420715	[ T / C ]	UTR5
+ENST00000484243	ENSG00000213625	ENST00000484243	LEPROT	leptin receptor overlapping transcript [Source:HGNC Symbol;Acc:HGNC:29477]	chr1	65420715	[ T / C ]	UTR5
+ENST00000371088	ENSG00000203965	ENST00000371088	EFCAB7	EF-hand calcium binding domain 7 [Source:HGNC Symbol;Acc:HGNC:29379]	chr1	63534220	[ T / C ]	SPLICING SITE
+ENST00000370608	ENSG00000153898	ENST00000370608	MCOLN2	mucolipin TRP cation channel 2 [Source:HGNC Symbol;Acc:HGNC:13357]	chr1	84926641	[ C / T ]	UTR3
+ENST00000463065	ENSG00000153898	ENST00000463065	MCOLN2	mucolipin TRP cation channel 2 [Source:HGNC Symbol;Acc:HGNC:13357]	chr1	84926641	[ C / T ]	UTR3
+ENST00000284142	ENSG00000154007	ENST00000284142	ASB17	ankyrin repeat and SOCS box containing 17 [Source:HGNC Symbol;Acc:HGNC:19769]	chr1	75932287	[ C / T ]	SPLICING SITE
+ENST00000640664	ENSG00000162618	ENST00000640664	ADGRL4	adhesion G protein-coupled receptor L4 [Source:HGNC Symbol;Acc:HGNC:20822]	chr1	78891675	[ G / C ]	UTR3
+ENST00000662895	ENSG00000162618	ENST00000662895	ADGRL4	adhesion G protein-coupled receptor L4 [Source:HGNC Symbol;Acc:HGNC:20822]	chr1	78891675	[ G / C ]	UTR3
+ENST00000370630	ENSG00000117151	ENST00000370630	CTBS	chitobiase [Source:HGNC Symbol;Acc:HGNC:2496]	chr1	84550494	[ A / G ]	UTR3
+ENST00000465118	ENSG00000117151	ENST00000465118	CTBS	chitobiase [Source:HGNC Symbol;Acc:HGNC:2496]	chr1	84554954	[ G / T ]	UTR3
+ENST00000370625	ENSG00000117151	ENST00000370625	CTBS	chitobiase [Source:HGNC Symbol;Acc:HGNC:2496]	chr1	84554954	[ G / T ]	UTR3
+ENST00000671746	ENSG00000162434	ENST00000671746	JAK1	Janus kinase 1 [Source:HGNC Symbol;Acc:HGNC:6190]	chr1	64837976	[ C / T ]	UTR3
+ENST00000673220	ENSG00000162434	ENST00000673220	JAK1	Janus kinase 1 [Source:HGNC Symbol;Acc:HGNC:6190]	chr1	64837976	[ C / T ]	UTR3
+ENST00000672751	ENSG00000162434	ENST00000672751	JAK1	Janus kinase 1 [Source:HGNC Symbol;Acc:HGNC:6190]	chr1	64869379	[ (cgA) gcT / (cgG) gcC 579 , A / A 193 ]	 This is a synomynous mutation
+ENST00000370859	ENSG00000137968	ENST00000370859	SLC44A5	solute carrier family 44 member 5 [Source:HGNC Symbol;Acc:HGNC:28524]	chr1	75236989	[ G / A ]	SPLICING SITE
+ENST00000370855	ENSG00000137968	ENST00000370855	SLC44A5	solute carrier family 44 member 5 [Source:HGNC Symbol;Acc:HGNC:28524]	chr1	75236989	[ G / A ]	SPLICING SITE
+ENST00000370548	ENSG00000267561	ENST00000370548		novel protein	chr1	86993059	[ A / G ]	UTR5
+ENST00000370812	ENSG00000142892	ENST00000370812	PIGK	phosphatidylinositol glycan anchor biosynthesis class K [Source:HGNC Symbol;Acc:HGNC:8965]	chr1	77092372	[ G / C ]	UTR3
+ENST00000445065	ENSG00000142892	ENST00000445065	PIGK	phosphatidylinositol glycan anchor biosynthesis class K [Source:HGNC Symbol;Acc:HGNC:8965]	chr1	77092372	[ G / C ]	UTR3
+ENST00000487906	ENSG00000142892	ENST00000487906	PIGK	phosphatidylinositol glycan anchor biosynthesis class K [Source:HGNC Symbol;Acc:HGNC:8965]	chr1	77092372	[ G / C ]	UTR3
+ENST00000637208	ENSG00000116641	ENST00000637208	DOCK7	dedicator of cytokinesis 7 [Source:HGNC Symbol;Acc:HGNC:19190]	chr1	62494430	[ A / G ]	UTR3
+ENST00000370486	ENSG00000137944	ENST00000370486	KYAT3	kynurenine aminotransferase 3 [Source:HGNC Symbol;Acc:HGNC:33238]	chr1	88961219	[ (tcG) agC / (tcA) agT 735 , S / S 245 ]	 This is a synomynous mutation
+ENST00000436063	ENSG00000067334	ENST00000436063	DNTTIP2	deoxynucleotidyltransferase terminal interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:24013]	chr1	93879160	[ C / T ]	UTR5
+ENST00000359208	ENSG00000067334	ENST00000359208	DNTTIP2	deoxynucleotidyltransferase terminal interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:24013]	chr1	93879160	[ C / T ]	UTR5
+
+ENST00000528680	ENSG00000067334	ENST00000528680	DNTTIP2	deoxynucleotidyltransferase terminal interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:24013]	chr1	93879160	[ C / T ]	UTR5
+ENST00000531412	ENSG00000122417	ENST00000531412	ODF2L	outer dense fiber of sperm tails 2 like [Source:HGNC Symbol;Acc:HGNC:29225]	chr1	86356548	[ A / G ]	SPLICING SITE
+ENST00000488879	ENSG00000122417	ENST00000488879	ODF2L	outer dense fiber of sperm tails 2 like [Source:HGNC Symbol;Acc:HGNC:29225]	chr1	86382272	[ G / A ]	UTR3
+ENST00000436111	ENSG00000065243	ENST00000436111	PKN2	protein kinase N2 [Source:HGNC Symbol;Acc:HGNC:9406]	chr1	88771873	[ gCa / gTa 323 , A / V 108 ] 0.27	 This is a non-synomynous mutation!!!
+ENST00000370290	ENSG00000117500	ENST00000370290	TMED5	transmembrane p24 trafficking protein 5 [Source:HGNC Symbol;Acc:HGNC:24251]	chr1	93158817	[ T / C ]	SPLICING SITE
+

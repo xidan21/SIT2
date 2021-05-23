@@ -1,0 +1,46 @@
+ENST00000482020	chr1	61404111	[ cGg / cAg 437 , P / Q 146 ] 0.36	 This is a non-synomynous mutation!!!
+ENST00000316485	chr1	61766458	[ atT / atC 369 , I / I 123 ]	 This is a synomynous mutation
+ENST00000316485	chr1	61787811	[ Gga / Aga 907 , G / R 303 ] 0.70	 This is a non-synomynous mutation!!!
+ENST00000316485	chr1	61791364	[ gAa / gCa 1085 , E / A 362 ] 0.55	 This is a non-synomynous mutation!!!
+ENST00000316485	chr1	61795496	[ Ata / Gta 1198 , I / V 400 ] 0.14	 This is a non-synomynous mutation!!!
+ENST00000494710	chr1	65392462	[ gaG / gaA 1422 , E / E 474 ]	 This is a synomynous mutation
+ENST00000494710	chr1	65392468	[ caC / caT 1428 , H / H 476 ]	 This is a synomynous mutation
+ENST00000534632	chr1	74199809	[ gtG / gtA 228 , V / V 76 ]	 This is a synomynous mutation
+ENST00000472069	chr1	74199809	[ gtG / gtA 222 , V / V 74 ]	 This is a synomynous mutation
+ENST00000472069	chr1	74204488	[ aaA / aaG 435 , K / K 145 ]	 This is a synomynous mutation
+ENST00000483990	chr1	74748757	[ Atg / Gtg 1 , M / V 1 ] 0.13	 This is a non-synomynous mutation!!!
+ENST00000401035	chr1	77926761	[ Gga / Aga 541 , G / R 181 ] 0.70	 This is a non-synomynous mutation!!!
+ENST00000440324	chr1	77926761	[ Gga / Aga 691 , G / R 231 ] 0.70	 This is a non-synomynous mutation!!!
+ENST00000452835	chr1	78628133	[ cAt / cGt 218 , H / R 73 ] 0.37	 This is a non-synomynous mutation!!!
+ENST00000436111	chr1	88771873	[ gCa / gTa 323 , A / V 108 ] 0.27	 This is a non-synomynous mutation!!!
+ENST00000448194	chr1	91977138	[ aaA / aaC 714 , K / N 238 ] 0.41	 This is a non-synomynous mutation!!!
+ENST00000426141	chr1	91977138	[ aaA / aaC 714 , K / N 238 ] 0.41	 This is a non-synomynous mutation!!!
+ENST00000680541	chr1	91977138	[ aaA / aaC 363 , K / N 121 ] 0.41	 This is a non-synomynous mutation!!!
+ENST00000680091	chr1	91977138	[ aaA / aaC 756 , K / N 252 ] 0.41	 This is a non-synomynous mutation!!!
+ENST00000455267	chr1	93207131	[ aaC / aaT 102 , N / N 34 ]	 This is a synomynous mutation
+ENST00000454199	chr1	98691078	[ Tct / Act 175 , S / T 59 ] 0.11	 This is a non-synomynous mutation!!!
+ENST00000672751	chr1	64869379	[ (cgA) gcT / (cgG) gcC 579 , A / A 193 ]	 This is a synomynous mutation
+ENST00000672751	chr1	64869412	[ (ccT) ggA / (ccC) ggG 546 , G / G 182 ]	 This is a synomynous mutation
+ENST00000448166	chr1	67095407	[ (gTc) cAg / (gCc) cGg 644 , Q / R 215 ] 0.52	 This is a non-synomynous mutation!!!
+ENST00000534713	chr1	68159195	[ (cCc) gGg / (cTc) gAg 140 , A / E 47 ] 0.55	 This is a non-synomynous mutation!!!
+ENST00000533537	chr1	68159195	[ (cgC) gcG / (cgT) gcA 33 , A / A 11 ]	 This is a synomynous mutation
+ENST00000530486	chr1	68159195	[ (cgC) gcG / (cgT) gcA 297 , A / A 99 ]	 This is a synomynous mutation
+ENST00000370973	chr1	68159195	[ (cgC) gcG / (cgT) gcA 33 , A / A 11 ]	 This is a synomynous mutation
+ENST00000471243	chr1	68159195	[ (cgC) gcG / (cgT) gcA 297 , A / A 99 ]	 This is a synomynous mutation
+ENST00000370870	chr1	74710202	[ (Taa) Att / (Caa) Gtt 526 , I / V 176 ] 0.14	 This is a non-synomynous mutation!!!
+ENST00000441120	chr1	74710202	[ (Taa) Att / (Caa) Gtt 526 , I / V 176 ] 0.14	 This is a non-synomynous mutation!!!
+ENST00000524536	chr1	77736060	[ (cgG) gcC / (cgT) gcA 543 , A / A 181 ]	 This is a synomynous mutation
+ENST00000370486	chr1	88961219	[ (tcG) agC / (tcA) agT 735 , S / S 245 ]	 This is a synomynous mutation
+ENST00000413769	chr1	88983595	[ (Cgg) Gcc / (Tgg) Acc 232 , A / T 78 ] 0.16	 This is a non-synomynous mutation!!!
+ENST00000413769	chr1	88983615	[ (cCt) gGa / (cGt) gCa 212 , G / A 71 ] 0.15	 This is a non-synomynous mutation!!!
+ENST00000413769	chr1	88983707	[ (taT) atA / (taC) atG 120 , I / M 40 ] 0.09	 This is a non-synomynous mutation!!!
+ENST00000413769	chr1	88983716	[ (caT) gtA / (caC) gtG 111 , V / V 37 ]	 This is a synomynous mutation
+ENST00000413769	chr1	88983751	[ (Tgt) Aca / (Cgt) Gca 76 , T / A 26 ] 0.16	 This is a non-synomynous mutation!!!
+ENST00000445969	chr1	89009135	[ (Aca) Tgt / (Gca) Cgt 211 , C / R 71 ] 0.89	 This is a non-synomynous mutation!!!
+ENST00000445969	chr1	89009452	[ (Cac) Gtg / (Tac) Atg 145 , V / M 49 ] 0.13	 This is a non-synomynous mutation!!!
+ENST00000650452	chr1	89133354	[ (tcA) agT / (tcG) agC 1455 , S / S 485 ]	 This is a synomynous mutation
+ENST00000443807	chr1	89266554	[ (ggG) ccC / (ggA) ccT 660 , P / P 220 ]	 This is a synomynous mutation
+ENST00000427444	chr1	91394244	[ (Agt) Tca / (Ggt) Cca 217 , S / P 73 ] 0.21	 This is a non-synomynous mutation!!!
+ENST00000455133	chr1	91394244	[ (Agt) Tca / (Ggt) Cca 343 , S / P 115 ] 0.21	 This is a non-synomynous mutation!!!
+ENST00000417833	chr1	91861488	[ (aGg) tCc / (aAg) tTc 44 , S / F 15 ] 0.56	 This is a non-synomynous mutation!!!
+ENST00000491940	chr1	92607671	[ (gCc) cGg / (gAc) cTg 689 , Q / L 230 ] 0.52	 This is a non-synomynous mutation!!!
