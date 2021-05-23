@@ -56,7 +56,7 @@ sudo apt-get install bedtools / yum install BEDTools
 How to run ?
 ============
 
-To run S.I.T 2, go to " %SIT2_HOME/bin/ " folder and double click "sit"
+To run S.I.T 2, go to " %SIT2_HOME/bin/ " folder and double click "sit2"
 
 or open the terminal, enter to the directory " %SIT2_HOME/bin/ " and type:
 
